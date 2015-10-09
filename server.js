@@ -11,7 +11,7 @@ var cassandra  = require('cassandra-driver');
 var async      = require('async')
 
 // get in contact with cassandra
-var ip = '52.5.253.89';
+var ip = 'localhost';
 
 
 var client = new cassandra.Client( { contactPoints : [ip], keyspace: 'project' } );
